@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO_LIST</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/tareas.js"></script>
+</head>
+<body>
+    <div class="wrapper"></div>
+    
+    <header id="crear-tarea">
+
+        <input type="text" id="introduce-tarea" placeholder="Introduce tarea">
+
+        <select id="seleccionar-prioridad">
+
+        <option value="">Selecciona una prioridad</option>
+        <option value="urgente">URGENTE</option>
+        <option value="diaria">DIARIA</option>
+        <option value="optativo">OPTATIVO</option> </select>       
+            
+        <button id="btn-guardar">GUARDAR</button>     
+        
+        <div id="alert">
+            <p>Debes rellenar todos los campos</p>
+        </div>
+
+    </header>
+    <main>
+        <select id="filtrar-prioridad">
+
+            <option value="">Selecciona una prioridad</option>
+            <option value="urgente">URGENTE</option>
+            <option value="diaria">DIARIA</option>
+            <option value="optativo">OPTATIVO</option> 
+        </select>
+      
+
+        <input type="text" id="buscar-tarea" placeholder="Buscar tarea">    
+        <section id="tareas">  </section>
+    </main>
+</div>
+<script src="./js/funciones.js"></script>
+<script src="./js/eventos.js"></script>
+</body>
+</html>
