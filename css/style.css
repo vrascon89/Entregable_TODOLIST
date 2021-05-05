@@ -1,0 +1,132 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    width: 50%;
+    height: auto;
+    margin: 150px auto;
+    background-color: rgba(105, 124, 213, 0.308);
+
+    
+}
+.wrapper{
+    display: flex;
+}
+
+header{
+
+    background-color:  rgba(181, 194, 132, 0.808);
+    padding: 20px;
+}
+
+
+
+main{
+    background-color:  white;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+
+}
+
+input{
+
+    padding: 4px;
+    width: 200px;
+}
+
+main select{
+    padding: 4px;
+    margin-right: 90px;
+    width: 300px;
+}
+main input{
+    width: 300px;
+}
+
+
+
+
+
+/* ---------------------------ALERT----------------------------------------------- */
+
+#alert{
+
+    margin-top: 10px;
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+    display: none;
+  
+}
+
+/* -------------------------------------------------------------------------- */
+
+#tareas{
+
+    margin-top: 20px;
+}
+
+#tareas article{
+    padding: 10px;
+    margin: 5px 0px;
+    position: relative;
+    border-bottom : 1px solid black;
+}
+
+/* ---------------------------BOTONES----------------------------------------------- */
+
+#tareas article #btn-eliminar{
+
+    position: absolute;
+    width: 100px;
+    right: 20px;
+    bottom: 10px;
+    background-color: rgb(114, 114, 230);
+    border-radius: 20px;
+    transition:0.4s ;
+}
+
+#btn-eliminar:hover{
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    
+}
+
+button{
+
+    background-color: rgb(114, 114, 230);
+    color: black;
+    padding: 3px;
+    cursor: pointer;
+    margin-left: 150px;
+    width: 100px;
+    bottom: 10px;
+    transition:0.2s ;
+}
+button:hover{
+    background-color: rgb(38, 133, 38);
+}
+
+/* ---------------------------PRIORIDADES----------------------------------------------- */
+
+#tareas .urgente{
+
+color: red}
+
+#tareas .diaria{
+
+    color:rgb(97, 97, 176);
+}
+
+#tareas .optativo{
+
+    color:rgb(18, 131, 18);
+}
