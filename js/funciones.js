@@ -137,7 +137,7 @@ function getDataForm(event) {
 
         dataIdTarea++;
         tareas.innerHTML +=
-        `<article style="background-color:${color}" data-id='${dataIdTarea}'>
+        `<article style="color:${color}" data-id='${dataIdTarea}'>
         
         <h1>${tituloTarea}</h1>  <button id="btn-eliminar">ELIMINAR</button>
        
@@ -191,3 +191,4 @@ function borrarElementos(event) {
     listaTareas.splice(position, 1);
     
 }  
+
